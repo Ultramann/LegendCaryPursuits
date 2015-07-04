@@ -1,0 +1,9 @@
+#Custom
+env/
+output/
+plugins/
+themes/
+fabfile.py
+pelicanconf.pyc
+publishconf.py
+*.pid
