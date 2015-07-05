@@ -6,7 +6,7 @@ AUTHOR = u'Cary Goltermann'
 SITENAME = u'LegendCaryPursuits'
 SITEURL = ''
 
-PATH = 'content'
+#PATH = 'content'
 
 TIMEZONE = 'America/Denver'
 

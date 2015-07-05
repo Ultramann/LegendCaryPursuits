@@ -7,3 +7,4 @@ fabfile.py
 pelicanconf.pyc
 publishconf.py
 *.pid
+BlogSetUp.webarchive
