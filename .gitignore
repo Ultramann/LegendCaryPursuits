@@ -1,5 +1,6 @@
 #Custom
 env/
+!env/lib/python2.7/site-packages/pelican/themes/myidea
 output/
 plugins/
 themes/
