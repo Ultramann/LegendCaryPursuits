@@ -12,7 +12,7 @@ TIMEZONE = 'America/Denver'
 
 DEFAULT_LANG = u'en'
 
-THEME = './env/lib/python2.7/site-packages/pelican/themes/myidea'
+THEME = './themes/myidea'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
