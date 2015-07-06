@@ -8,7 +8,7 @@ Authors: Cary Goltermann
 Summary: Thoughts pre data science course.
 
 ### Introduction
-My 12 week Galvanize Data Science Immersion course starts tomorrow, and as part of the precouse assignments they wanted to make sure that I'd be able to blog about my experiences. So for the past day I've been figuring out how to set up this blog with the python powered Pelican and get it hosted with Digital Ocean. I almost exactly followed the steps from [this](http://jamesnewbrain.com/how-to-host-pelican-github-vps-blog.html) blog. For the most part, the turorial was very easy to follow, so I want to say a quick thank you to James Fallisgaard who wrote it.
+Tomorrow is my first day of the 12 week Galvanize [Data Science](http://www.galvanize.com/courses/data-science/#.VZoMToc-CHo) Immersion course that I was recently accepted to. As part of the precouse assignments they wanted to make sure that I'd be able to blog about my experiences. So for the past day I've been figuring out how to set up this blog with the python powered Pelican and get it hosted with Digital Ocean. I almost exactly followed the steps from [this](http://jamesnewbrain.com/how-to-host-pelican-github-vps-blog.html) blog. For the most part, the turorial was very easy to follow, so I want to say a quick thank you to James Fallisgaard who wrote it.
 ### Application Process
 I guess I'll start with how I got into the program. After formally submitting an application on Galvanize's site, I was contacted the next day with a problem set that I had 4 hours to complete. There were only three problems to complete, the first having to do with word processing in python, the second having to do with a sql joins, and the last an exercise in evaluating a hypothesis testing situation.  
 
