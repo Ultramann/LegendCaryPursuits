@@ -8,4 +8,4 @@ In my spare time I train for bouldering at the Denver Bouldering Club, where I a
 
 This blog is powered by [Pelican](http://getpelican.com/), which takes great advantage of [Python](http://python.org/).
 
-The theme is almost entirely from [Smashing Magazine](http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/)
+The theme is almost entirely from [Smashing Magazine](http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/).
