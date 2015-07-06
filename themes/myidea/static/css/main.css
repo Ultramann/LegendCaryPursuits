@@ -206,6 +206,7 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 	#banner nav a:hover, #banner nav a:active,
 	#banner nav .active a:link, #banner nav .active a:visited {
 		background: #DC143C;
+        border-radius: 0px;
 		color: #fff;
 		text-shadow: none !important;
 	}

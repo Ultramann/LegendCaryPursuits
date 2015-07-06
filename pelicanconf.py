@@ -7,6 +7,7 @@ SITENAME = u'LegendCaryPursuits'
 SITEURL = ''
 
 PATH = 'content'
+STATIC_PATHS = ['images']
 
 TIMEZONE = 'America/Denver'
 
@@ -22,11 +23,13 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),)
+LINKS = (('DataTau', 'http://datatau.com/'),
+         ('LifeHacker', 'http://lifehacker.com/'),
+         ('Gizmodo', 'http://gizmodo.com/'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),)
+SOCIAL = (('github', 'http://github.com/Ultramann'),
+          ('linkedin', 'https://www.linkedin.com/pub/cary-goltermann/85/b19/1'),)
 
 DEFAULT_PAGINATION = 10
 
