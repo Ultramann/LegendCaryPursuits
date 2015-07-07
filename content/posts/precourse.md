@@ -5,7 +5,7 @@ Category: Blog
 Tags: galvanize
 Slug: precourse-thoughts
 Authors: Cary Goltermann
-Summary: Thoughts pre data science course.
+Summary: Thoughts pre data science course. I talk about the application process and the stuff I've had to do leading up to the course starting tomorrow.
 
 ### Introduction
 Tomorrow is my first day of the 12 week Galvanize [Data Science](http://www.galvanize.com/courses/data-science/#.VZoMToc-CHo) Immersion course that I was recently accepted to. As part of the precouse assignments they wanted to make sure that I'd be able to blog about my experiences. So for the past day I've been figuring out how to set up this blog with the python powered Pelican and get it hosted with Digital Ocean. I almost exactly followed the steps from [this](http://jamesnewbrain.com/how-to-host-pelican-github-vps-blog.html) blog. For the most part, the turorial was very easy to follow, so I want to say a quick thank you to James Fallisgaard who wrote it.
