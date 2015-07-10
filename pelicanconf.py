@@ -24,8 +24,9 @@ AUTHOR_FEED_RSS = None
 
 # Blogroll
 LINKS = (('DataTau', 'http://datatau.com/'),
-         ('LifeHacker', 'http://lifehacker.com/'),
-         ('Gizmodo', 'http://gizmodo.com/'),)
+         ('yHat', 'http://blog.yhathq.com'),
+         ('DataElixir', 'http://dataelixir.com/'),
+         ('DataScienceWeekly', 'http://www.datascienceweekly.org'))
 
 # Social widget
 SOCIAL = (('github', 'http://github.com/Ultramann'),
