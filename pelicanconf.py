@@ -26,7 +26,9 @@ AUTHOR_FEED_RSS = None
 LINKS = (('DataTau', 'http://datatau.com/'),
          ('yHat', 'http://blog.yhathq.com'),
          ('DataElixir', 'http://dataelixir.com/'),
-         ('DataScienceWeekly', 'http://www.datascienceweekly.org'))
+         ('DataScienceWeekly', 'http://www.datascienceweekly.org'),
+         ('LifeHacker', 'http://lifehacker.com'),
+         ('Gizmodo', 'http://gizmodo.com/'))
 
 # Social widget
 SOCIAL = (('github', 'http://github.com/Ultramann'),

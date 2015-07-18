@@ -29,14 +29,23 @@
             {% endif %}
             <li><article class="hentry">
                 <header>
-                    <h1><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark"
-                           title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a></h1>
+                    <h1 style="text-align:left;">
+                        <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark"
+                           title="Permalink to {{ article.title|striptags }}">
+                                {{ article.title }}
+                        </a>
+                    <span style="float: right;">
+                        <abbr class="shortdate" title="{{ article.date.isoformat() }}">
+                            {{ article.locale_date }}
+                        </abbr>
+                    </span>
+                    </h1>
                 </header>
-
                 <div class="entry-content">
-                {% include 'article_infos.html' %}
+                    {#{% include 'article_infos.html' %} #}
                 {{ article.summary }}
                 <a class="readmore" href="{{ SITEURL }}/{{ article.url }}">read more</a>
+                <p> </p>
                 {% include 'comments.html' %}
                 </div><!-- /.entry-content -->
             </article></li>
