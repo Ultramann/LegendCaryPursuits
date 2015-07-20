@@ -22,7 +22,7 @@ The other prophecy about DSI that has defintiely come to fruition for me is that
 
 Many of the things that we have been going over in the last two weeks were in the precourse assignment that we all had to complete before the start of classes. And, while I finished all of the assignments, I still am finding myself with sticking points, as the motif of this entire post suggests, in case you, the reader, somehow missed that point.
 
-#### Notes
+### Notes
 I'm going to really quick get the promised to myself stuff out of the way because I need to go learn some inferential statistics before class starts this morning. Last time I said that I was going to start recording my eating and workouts. That hasn't really happenned :( Yeah I've done it a few times, but, by no means have been consistent with the endeavor. I'm going to try and get better at that. On the plus side, I have been finding time to workout more and have been slightly less dog-tired. So hopefully that's indicitive of my getting better at functioning under my current circumstances and therefore will have fewer excuses to be skimping on my commitments. Trying again, I'm going to say that I want to commit to getting at least one strength workout in this weekend, which already promises to be a busy one. I know, though you might not, that this commitment would normally be a really weak one for me; but with my current lack of spare time, getting workouts in has been hard. Though I did hop on a rowing machine this morning.
 
 In any case, I'm off to try and proofread this post and then get to learning. Go-go-gadget youtube!
