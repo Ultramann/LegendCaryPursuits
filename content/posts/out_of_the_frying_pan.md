@@ -7,10 +7,10 @@ Slug: out-of-the-frying-pan
 Authors: Cary Goltermann
 Summary: Basically everything that we've done in class up until this point has been prep work for the real shit, data science...-ing.
 
-Now that we are sufficiently well versed in foundational scipy stacking, and in some basic statistics, it's time to start filling the "brain-tank" with "premimum 91 octane knowledge." (-Barney Stinson) No longer is class going to be mainly about python and mathematical theory, we're getting on that actual data science horse and riding it all the way to knowing-stuff-ville. (I appologize for my slightly ridiculous language, I just finished binge-watching Silcon Valley and apparently one of the charachers, Erlich, and his absurd personality has rubbed off on me.)
+Now that we are sufficiently well versed in foundational scipy stacking, and in some basic statistics, it's time to start filling the "brain-tank" with "premium 91 octane knowledge." (-Barney Stinson) No longer is class going to be mainly about python and mathematical theory, we're getting on that actual data science horse and riding it all the way to knowing-stuff-ville. (I apologize for my slightly ridiculous language, I just finished binge-watching Silicon Valley and apparently one of the characters, Erlich, and his absurd personality has rubbed off on me.)
 
 ### Last Couple of Days
-On friday we learned about multi-armed bandit techniques and wrote -> implemented various strategies, UCB1, softmax, epislon greedy, and a bayesian approach. It was pretty cool actually feeling like I was doing something that wasn't just tangentially related to data science, but squarely in that sphere. 
+On Friday we learned about multi-armed bandit techniques and wrote -> implemented various strategies, UCB1, softmax, epislon greedy, and a bayesian approach. It was pretty cool actually feeling like I was doing something that wasn't just tangentially related to data science, but squarely in that sphere. 
 
 The day before we worked on creating an bayesian inference engine that updates beliefs about the distribution of a random variable by passing in data. For example, we passed the data of coin flips to the engine and had it plot the probability distribution for a coin where a head has value 1 and a tail 0.
 <div style="text-align: center"><h3>Coin Flips</h3><img src="../images/bayes_flips.png" alt="Bayesian Coin" style="height: 350px"></div>

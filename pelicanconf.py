@@ -9,6 +9,9 @@ SITEURL = ''
 PATH = 'content'
 STATIC_PATHS = ['images']
 
+PLUGIN_PATHS = ['plugins']
+PLUGINS = ['render_math']
+
 TIMEZONE = 'America/Denver'
 
 DEFAULT_LANG = u'en'
