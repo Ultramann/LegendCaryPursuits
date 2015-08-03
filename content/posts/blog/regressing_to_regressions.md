@@ -1,6 +1,6 @@
 Title: Regressing to Regressions
 Date: 2015-8-02 08:18
-Modified: 2015-7-20 15:57
+Modified: 2015-7-20 16:18
 Category: Blog
 Tags: galvanize
 Slug: regressing-to-regressions
@@ -9,9 +9,9 @@ Summary: Regressions and some of the lovely things that go along with them.
 
 I just realize that it has been very nearly two weeks since I last posted anything. This fact alone is, at least, partially indicative of how little time I have left after working on the on the course material every day. But this is a good thing; because, while these past two weeks have been very hard and fast hitting, there has been an insane amount of growth in my data science knowledge during this very short time period. I think that the best thing for me to do is give a quick summary of the models that I learned about in the last fortnight. This specific post will cover linear and logistic regressions. Eventually I will write about more complex models and will hopefully link them here and possibly here.
 
-Disclaimer: though I learned quite a lot about the following models(though they are simple regressions), I think that one of the most powerful things that I learned was how deep my ignorance with regards to them goes. Just to make an unnecessarily colorful analogy:
+Disclaimer: though I learned quite a lot about the following models (though they are simple regressions), I think that one of the most powerful things that I learned was how deep my ignorance with regards to them goes. Just to make an unnecessarily colorful analogy:
 >I feel like a gangster who previously only had a small pistol but recently got my hands on an arsenal of weapons. Do I feel more powerful? DAMN STRAIGHT I DO! But realistically I don't have the experience to know what situations call for what weapon yet. And because of that I'm more than likely to bring a couple of AKs to some knife fights, and surely plenty of knives to some RPG ones as well.  
-<div style="text-align: center"><h4>"Knife" Fight</h4><img src="../images/knife_fight.png" style="height: 350px"></div>
+<div style="text-align: center"><h4>"Knife" Fight</h4><img src="/images/knife_fight.png" style="height: 350px"></div>
 
 With all that in mind. Here's my, poor, to be sure, description of the regression models that we learned two weeks ago.
 ### Linear Regression
@@ -26,7 +26,7 @@ I was told to think of these regularization methods as penalizing the coefficien
 Alright, that section took me way too long to write, so now I'm going to move on.
 ### Logistic Regression
 Logistic regressions try to solve the problem of binary classification, whereby you are trying to determine which of two classes a particular data point belongs to. The linear regression falls short in this application because the only two values that any data point can take on are 0 and 1 (this is true of any model in the classification paradigm). Basically what we try to do is use the function: $$p(X) = \frac{e^{\beta X}}{1+e^{\beta X}},$$ where $\textit{X}$ is the matrix of our data and $\beta$ is the vector of our coefficients for each feature. This is called the logistic, or sigmoid, function, what is important about it is that it is bound by the interval (0, 1). The following graphs show the comparison of applying a linear and a logistic regression to binary classified data.
-<div style="text-align: center"><h4>Linear vs Logistic Regression</h4><img src="../images/linear_v_log.tiff" style="height: 250px"></div>
+<div style="text-align: center"><h4>Linear vs Logistic Regression</h4><img src="/images/linear_v_log.tiff" style="height: 250px"></div>
 You can see that the only two values a data point, displayed as a yellow dot, can take on are 0 and 1, and that the linear model is well out of its league when it comes to predicting data of this nature's value.
 
 The basic idea of a logistic regression is almost identical to that of the linear regression. Minimize the sum of square distances between the predicted and actual.

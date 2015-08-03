@@ -12,6 +12,8 @@ STATIC_PATHS = ['images']
 PLUGIN_PATHS = ['plugins']
 PLUGINS = ['render_math']
 
+MD_EXTENSIONS = ['codehilite']
+
 TIMEZONE = 'America/Denver'
 
 DEFAULT_LANG = u'en'
@@ -37,7 +39,7 @@ LINKS = (('DataTau', 'http://datatau.com/'),
 SOCIAL = (('github', 'http://github.com/Ultramann'),
           ('linkedin', 'https://www.linkedin.com/pub/cary-goltermann/85/b19/1'),)
 
-DEFAULT_PAGINATION = 10
+DEFAULT_PAGINATION = 5
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
