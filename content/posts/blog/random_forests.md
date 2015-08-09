@@ -7,7 +7,7 @@ Slug: random-forests
 Authors: Cary Goltermann
 Summary: One decision tree is pretty cool, but what if we had an entire Amazon of them?? No, Jeff Bezos, I was talking about the other Amazon.
 
-Alright kids, today we're going to talk about random forests. Of all the machine learning methods that I've learned so far, I think I'd choose random forets as the most elegant in terms of intuitive understandability. The basic idea here is that if one decision tree was good, then more are probably better. Now for those (non-existent) astute readers out there, you're probably thinking to yourself:
+Alright kids, today we're going to talk about random forests. This machine learning method follows pretty naturally from decision trees, which wrote about [last time](|filename|./screw_your_paramters.md), so lets dive in. Of all the machine learning methods that I've learned so far, I think I'd choose random forets as the most elegant in terms of intuitive understandability. The basic idea here is that if one decision tree was good, then more are probably better. Now for those (non-existent) astute readers out there, you're probably thinking to yourself:
     
    > _"Self. Decision trees seem rather deterministic, so why would having more than one help me with anything? Talk about redundancy..._
 
@@ -46,3 +46,5 @@ Something that I haven't really talked about in any of my posts yet is the goodn
 The idea of out-of-bag error checking is that every time you make a bootstrapped sample to make a tree from, roughly one-third of the original observations are left out of that sample - remember, bootstrapping happens with replacement, so some observations will appear more than once in a bootstrapped sample and others not at all, I have written a post about the math behind this fact [here](|filename|../code/boosting_proportion.md), if you're interested -, these are referred to as the _out-of-bag (OOB)_ observations. We can leverage this unavoidable fact about bootstrapping to get an idea of how potentially well fit out model is to the real world, by checking how good our model is at predicting the outcome of the OOB observations. This might seems a little sketchy if you know anything about cross-validation, but it goes back to the fact that each observation is left out of samples that roughly one-third of the trees in our forest were made from. 
 
 So we can, without breaking any of math's commandments, get an idea of the error in our model by looking at the error in prediction quality, for each observation, for the subset of our models trees which didn't have that observation in the bootstrapped sample it was created from. Wow, I feel like I didn't explain that very well. But hopefully you get the picture.
+
+That's about all I have for 
