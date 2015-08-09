@@ -1,8 +1,8 @@
 Title: Regressing to Regressions
 Date: 2015-8-02 08:18
-Modified: 2015-7-20 16:18
+Modified: 2015-8-02 08:36
 Category: Blog
-Tags: galvanize
+Tags: galvanize, data science
 Slug: regressing-to-regressions
 Authors: Cary Goltermann
 Summary: Regressions and some of the lovely things that go along with them. 
