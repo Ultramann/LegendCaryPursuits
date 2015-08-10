@@ -7,9 +7,9 @@ Slug: random-forests
 Authors: Cary Goltermann
 Summary: One decision tree is pretty cool, but what if we had an entire Amazon of them?? No, Jeff Bezos, I was talking about the other Amazon.
 
-Alright kids, today we're going to talk about random forests. This machine learning method follows pretty naturally from decision trees, which wrote about [last time](|filename|./screw_your_parameters.md), so lets dive in. Of all the machine learning methods that I've learned so far, I think I'd choose random forets as the most elegant in terms of intuitive understandability. The basic idea here is that if one decision tree was good, then more are probably better. Now for those (non-existent) astute readers out there, you're probably thinking to yourself:
+Alright kids, today we're going to talk about random forests. This machine learning method follows pretty naturally from decision trees, which I wrote about [last time](|filename|./screw_your_parameters.md), so lets dive in. Of all the machine learning methods that I've learned so far, I think I'd choose random forets as the most elegant in terms of intuitive understandability. The basic idea here is that if one decision tree was good, then more are probably better. Now for those (non-existent) astute readers out there, you're probably thinking to yourself:
     
-   > _"Self. Decision trees seem rather deterministic, so why would having more than one help me with anything? Talk about redundancy..._
+   > _"Self. Decision trees seem rather deterministic, so why would having more than one help me with anything? Talk about redundancy..."_
 
 And you'd be right! So how are we going to make it so that having more than one decision tree is helpful to us? First I'm going to introduce the idea of _bagging_. 
 
