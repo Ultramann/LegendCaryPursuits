@@ -47,4 +47,4 @@ The idea of out-of-bag error checking is that every time you make a bootstrapped
 
 So we can, without breaking any of math's commandments, get an idea of the error in our model by looking at the error in prediction quality, for each observation, for the subset of our models trees which didn't have that observation in the bootstrapped sample it was created from. Wow, I feel like I didn't explain that very well. But hopefully you get the picture.
 
-That's about all I have for 
+That's about all I have for random forests. Next time I plan on writing about boosting. So get stoked for that!
