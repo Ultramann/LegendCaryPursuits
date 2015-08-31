@@ -37,7 +37,7 @@ LINKS = (('DataTau', 'http://datatau.com/'),
 
 # Social widget
 SOCIAL = (('github', 'http://github.com/Ultramann'),
-          ('linkedin', 'https://www.linkedin.com/pub/cary-goltermann/85/b19/1'),)
+          ('linkedin', 'https://www.linkedin.com/in/carygoltermann'),)
 
 DEFAULT_PAGINATION = 5
 
