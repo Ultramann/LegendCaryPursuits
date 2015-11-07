@@ -18,6 +18,15 @@ Boosting builds off the idea of decision trees via aggregation, but in a way tha
 
 Boosting starts similarly to random forest. Build a tree. Now, unlike in random forest where you just repeated that first step a ton of times, you build another tree, a single tree, but this tree is built to try and model the residuals that exist from the first tree. Aka, make a tree that is fit to the errors from the first tree. Then you sum the results of those two trees, call it your current model, and make a third tree fit to the residuals from current model. Lather, rinse, repeat.
 
-At first glance this method seemed pretty cool to me; we're taking a weak learner, the decision tree, and building on it with more weak learners, to make a model that predicts much better than any one of those individual trees could by themselves by literally fitting the error out of the model. I'm sure there's a project runway joke in here somewhere... However, I want to make clear that this method is extraordinarily susceptible to overfitting your data. Because, well I'm going to let you think about that one for a second.
+At first glance this method seemed pretty cool to me; we're taking a weak learner, the decision tree, and building on it with more weak learners, to make a model that predicts much better than any one of those individual trees could by themselves by literally fitting the error out of the model. I'm sure there's a project runway joke in here somewhere... However, I want to make clear that this method is extraordinarily susceptible to overfitting your data. Because... well I'm going to let you think about that one for a second.
 
-Per the usual, we use a form of regularization to combat overfitting. In this paradigm this looks like scaling the how much the tree's that fit the residuals contribute to the model. This scaling factor is called the shrinkage parameter. The other, very important, way that we decrease overfitting is by not added the full tree from each subsequential residual fit.
+Per the usual, we use a form of regularization to combat overfitting. In this paradigm this looks like scaling the how much the tree's that fit the residuals contribute to the model. This scaling factor is called the shrinkage parameter. The other, very important, way that we decrease overfitting is by not added the full tree from each subsequential residual fit. The other way is by not adding up a bunch of trees that are fully fit to the residuals, but instead stumps of those potential trees each time. In this way we can make a model that learns slowly and in turn is more tuned to the signal in the data as opposed to the noise in the data.
+
+#### Math Time
+Here's that entire process again, but mostly in math...YAY MATH!
+
+ 1)  Start with the null model, $\hat{f}(x) = 0$, such that $r_i = y_i$ $\forall i$ observations in the training data.
+
+ 2)  1) Fit a tree stump $\hat{f}^b$ with $d$ splits to the training data and current residuals ($X, r_i$).
+     2) Update your model $\hat{f}$ by added on the stump scaled by the shrinkage parameter:
+        $$ \hat{f}(x) + \lambda \hat{f}^b(x) \to \hat{f}(x) $$

@@ -2,7 +2,7 @@ Title: About
 Date: 2015-07-05 1730
 
 <img style="float: left; width: 200px; padding-right: 20px" src="/images/self.jpg">
-My name is Cary Goltermann. I have a degree in Physics and Matematics from the University of Colorado at Boulder. I am currently a student in the Data Science Immersion program at Galvanize Denver. 
+My name is Cary Goltermann. I have a degree in Physics and Mathematics from the University of Colorado at Boulder. I am currently a Data Scientist in Residence for the second cohort of the Data Science Immersion program at Galvanize Denver, the first cohort of which I was a student in.
 
 In my spare time I train for bouldering at the Denver Bouldering Club, where I also work on gymnastics skills.
 
