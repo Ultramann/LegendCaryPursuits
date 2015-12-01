@@ -2,7 +2,7 @@
 env/
 output/
 fabfile.py
-pelicanconf.pyc
 publishconf.py
+*.pyc
 *.pid
 BlogSetUp.webarchive
