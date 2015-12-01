@@ -6,6 +6,7 @@ Tags: galvanize, data science
 Slug: boosting
 Authors: Cary Goltermann
 Summary: Gradient boosting, Ada-boosting, here-a-boosting, there-a-boosting!
+Status: draft
 
 Holy crap it's been quite a while since I've written a post. Take that as a testament to the fact that I've been rather busy. Though arguably I've had the time to write some posts, so I don't really have any excuse. 
 
