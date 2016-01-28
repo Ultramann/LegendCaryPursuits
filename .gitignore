@@ -4,5 +4,7 @@ output/
 fabfile.py
 publishconf.py
 *.pyc
+__pycache__
+.DS_Store
 *.pid
 BlogSetUp.webarchive
