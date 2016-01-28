@@ -7,7 +7,8 @@ SITENAME = u'LegendCaryPursuits'
 SITEURL = ''
 
 PATH = 'content'
-STATIC_PATHS = ['images']
+STATIC_PATHS = ['images', 'extra/favicon.ico']
+EXTRA_PATH_METADATA = {'extra/favicon.ico': {'path': 'favicon.ico'}}
 
 PLUGIN_PATHS = ['plugins']
 PLUGINS = ['render_math']
